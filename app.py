@@ -3,7 +3,7 @@ from backend import query_llm
 import uuid
 
 st.set_page_config(page_title="RAG PDF Chatbot", layout="wide")
-st.title("📄 Chat with your PDF")
+st.title(" Chat with your PDF")
 
 # Session ID for user
 if "session_id" not in st.session_state:
