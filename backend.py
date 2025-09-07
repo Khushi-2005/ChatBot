@@ -24,7 +24,7 @@ def query_llm(question: str, k: int = 3) -> str:
     results = collection.similarity_search(question, k=k)
 
     if not results:
-        return "⚠️ No relevant content found in the PDF."
+        return " No relevant content found in the PDF."
 
     # Combine chunks with citations
     context = ""
@@ -55,4 +55,4 @@ Answer:
         response = f"{prompt}\n\n(Answer generation goes here...)"
         return response
     except Exception as e:
-        return f"⚠️ Error: {str(e)}"
+        return f"Error: {str(e)}"
