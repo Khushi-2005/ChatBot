@@ -24,3 +24,13 @@ Run ingest.py to load your PDF and create a vectorstore.
 Start the chatbot with:
 streamlit run app.py
 Ask questions about your PDF and get context-aware answers with citation
+## 📸 Screenshots
+
+### Chat Interface
+![Chat Interface](images/chatbot_ui.png)
+
+### PDF Upload
+![PDF Upload](images/Chatbot.png)
+
+
+
